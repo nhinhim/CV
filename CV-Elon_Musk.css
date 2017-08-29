@@ -1,0 +1,124 @@
+body {
+    font-size: 100%;
+    font-family: Roboto; Montserrat;
+    background-color: lavender;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    width: 4%;
+    min-height: 2%;
+}
+
+th.even {
+    background-color: tomato;
+}
+
+th, td {
+    border-collapse: collapse;
+    padding-left: 2%;
+    padding-right: 3%;
+    /*border: solid;*/
+}
+
+.heading1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 48%;
+    font-weight: bold;
+    font-size: 1.5em}
+
+/* These are used for Experience */
+
+.time, .acom {
+    width: 50%;
+    color: tomato;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.time {padding-left: 0px;}
+
+.place {
+    width: 50%;
+    color: tomato;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.heading2 {
+    font-weight:bold;
+    font-size: 1.2em;
+}
+
+.heading3 {
+    font-size: 1.2em;
+}
+
+/* These are for skills */
+.skill {
+    text-align: right;
+}
+
+div.standard {
+    width: 222px;
+    border: none;
+    margin-left: 10%;
+    color: tomato;
+    word-spacing:64px;
+}
+
+div.xuatsac {
+    width: 220px;
+    height: 14px;
+    border: none;
+    background-color: tomato;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+div.rattot {
+    width: 215px;
+    height: 12px;
+    border-right: 5px solid grey;
+    background-color: tomato;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+div.tot {
+    width: 205px;
+    height: 12px;
+    border-right: 15px solid grey;
+    background-color: tomato;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+div.kha {
+    width: 200px;
+    height: 12px;
+    border-right: 20px solid grey;
+    background-color: tomato;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+/* These are for Achievements & Certificates */
+.ac {  font-size: 1.1em;
+
+}
+
+.des {font-size: 0.9em;
+
+}
+
